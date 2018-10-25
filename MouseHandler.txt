@@ -1,0 +1,15 @@
+
+
+class MouseHandler extends MouseAdapter
+{
+JFrame f;
+MouseHandler(JFrame f)
+{
+this.f=f;
+}
+public void mouseClicked(MouseEvent e)
+{
+if(e.getButton()==MouseEvent.BUTTON3)
+f.pmnu.show(e.getComponent(),e.getX(),e.getY();
+}
+}
